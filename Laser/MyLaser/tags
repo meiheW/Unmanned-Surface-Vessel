@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFFSIZE	laserudp.c	36;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -Wall$/;"	m
+INCFLAGS	Makefile	/^INCFLAGS = $/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -Wl,-rpath,\/usr\/local\/lib$/;"	m
+LIBS	Makefile	/^LIBS = -lpthread$/;"	m
+MY_PORT	laserudp.c	37;"	d	file:
+OBJECTS	Makefile	/^OBJECTS = laserudp.o$/;"	m
+SERVER_IP	laserudp.c	/^const char * SERVER_IP = "192.168.1.201";$/;"	v
+SERVER_PORT	laserudp.c	38;"	d	file:
+finish	laserudp.c	/^volatile int finish = 1;$/;"	v
+fsh_angle	laserudp.c	/^volatile float fsh_angle = 0;$/;"	v
+get_command	laserudp.c	/^static int get_command()$/;"	f	file:
+init_sock	laserudp.c	/^static void  init_sock()$/;"	f	file:
+main	laserudp.c	/^int main()$/;"	f
+myaddr	laserudp.c	/^struct sockaddr_in myaddr;   $/;"	v	typeref:struct:sockaddr_in
+nprintline	laserudp.c	/^int nprintline=0;$/;"	v
+recvsocket	laserudp.c	/^void recvsocket(void)$/;"	f
+sendbuf	laserudp.c	/^int sendbuf( char* buf, size_t len )$/;"	f
+serveraddr	laserudp.c	/^struct sockaddr_in serveraddr;    $/;"	v	typeref:struct:sockaddr_in
+sock	laserudp.c	/^static int sock = -1;$/;"	v	file:
