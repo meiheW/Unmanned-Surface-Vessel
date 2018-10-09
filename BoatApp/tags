@@ -1,0 +1,374 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-g -Wall -std=gnu99 \\$/;"	m
+DEPS	Makefile	/^DEPS=$(wildcard .\/*.h)$/;"	m
+ECONNREFUSED	modbus-tcp.h	30;"	d
+ECONNRESET	modbus-tcp.h	29;"	d
+EMBBADCRC	modbus.h	115;"	d
+EMBBADDATA	modbus.h	116;"	d
+EMBBADEXC	modbus.h	117;"	d
+EMBMDATA	modbus.h	119;"	d
+EMBUNKEXC	modbus.h	118;"	d
+EMBXACK	modbus.h	107;"	d
+EMBXGPATH	modbus.h	111;"	d
+EMBXGTAR	modbus.h	112;"	d
+EMBXILADD	modbus.h	104;"	d
+EMBXILFUN	modbus.h	103;"	d
+EMBXILVAL	modbus.h	105;"	d
+EMBXMEMPAR	modbus.h	110;"	d
+EMBXNACK	modbus.h	109;"	d
+EMBXSBUSY	modbus.h	108;"	d
+EMBXSFAIL	modbus.h	106;"	d
+ENOPROTOOPT	modbus-tcp.h	32;"	d
+ENOTSUP	modbus-rtu-private.h	41;"	d
+ETIMEDOUT	modbus-tcp.h	31;"	d
+FALSE	modbus.h	48;"	d
+HAVE_ARPA_INET_H	config.h	5;"	d
+HAVE_DECL_TIOCSRS485	config.h	9;"	d
+HAVE_DECL___CYGWIN__	config.h	13;"	d
+HAVE_DLFCN_H	config.h	16;"	d
+HAVE_ERRNO_H	config.h	19;"	d
+HAVE_FCNTL_H	config.h	22;"	d
+HAVE_FORK	config.h	25;"	d
+HAVE_GETADDRINFO	config.h	28;"	d
+HAVE_GETTIMEOFDAY	config.h	31;"	d
+HAVE_INET_NTOA	config.h	34;"	d
+HAVE_INTTYPES_H	config.h	37;"	d
+HAVE_LIMITS_H	config.h	40;"	d
+HAVE_LINUX_SERIAL_H	config.h	43;"	d
+HAVE_MEMORY_H	config.h	46;"	d
+HAVE_MEMSET	config.h	49;"	d
+HAVE_NETDB_H	config.h	52;"	d
+HAVE_NETINET_IN_H	config.h	55;"	d
+HAVE_NETINET_TCP_H	config.h	58;"	d
+HAVE_SELECT	config.h	61;"	d
+HAVE_SOCKET	config.h	64;"	d
+HAVE_STDINT_H	config.h	67;"	d
+HAVE_STDLIB_H	config.h	70;"	d
+HAVE_STRERROR	config.h	73;"	d
+HAVE_STRINGS_H	config.h	76;"	d
+HAVE_STRING_H	config.h	79;"	d
+HAVE_SYS_IOCTL_H	config.h	85;"	d
+HAVE_SYS_SOCKET_H	config.h	88;"	d
+HAVE_SYS_STAT_H	config.h	91;"	d
+HAVE_SYS_TIME_H	config.h	94;"	d
+HAVE_SYS_TYPES_H	config.h	97;"	d
+HAVE_TERMIOS_H	config.h	100;"	d
+HAVE_TIME_H	config.h	103;"	d
+HAVE_UNISTD_H	config.h	106;"	d
+HAVE_VFORK	config.h	109;"	d
+HAVE_WORKING_FORK	config.h	118;"	d
+HAVE_WORKING_VFORK	config.h	121;"	d
+LIBMODBUS_VERSION	modbus-version.h	31;"	d
+LIBMODBUS_VERSION_CHECK	modbus-version.h	44;"	d
+LIBMODBUS_VERSION_HEX	modbus-version.h	38;"	d
+LIBMODBUS_VERSION_MAJOR	modbus-version.h	22;"	d
+LIBMODBUS_VERSION_MICRO	modbus-version.h	28;"	d
+LIBMODBUS_VERSION_MINOR	modbus-version.h	25;"	d
+LIBMODBUS_VERSION_STRING	modbus-version.h	35;"	d
+LIBS	Makefile	/^LIBS=-lpthread$/;"	m
+LT_OBJDIR	config.h	125;"	d
+MAX_MESSAGE_LENGTH	modbus.c	44;"	d	file:
+MODBUS_BEGIN_DECLS	modbus.h	38;"	d
+MODBUS_BEGIN_DECLS	modbus.h	41;"	d
+MODBUS_BROADCAST_ADDRESS	modbus.h	63;"	d
+MODBUS_END_DECLS	modbus.h	39;"	d
+MODBUS_END_DECLS	modbus.h	42;"	d
+MODBUS_ENOBASE	modbus.h	85;"	d
+MODBUS_ERROR_RECOVERY_LINK	modbus.h	/^    MODBUS_ERROR_RECOVERY_LINK          = (1<<1),$/;"	e	enum:__anon5
+MODBUS_ERROR_RECOVERY_NONE	modbus.h	/^    MODBUS_ERROR_RECOVERY_NONE          = 0,$/;"	e	enum:__anon5
+MODBUS_ERROR_RECOVERY_PROTOCOL	modbus.h	/^    MODBUS_ERROR_RECOVERY_PROTOCOL      = (1<<2),$/;"	e	enum:__anon5
+MODBUS_EXCEPTION_ACKNOWLEDGE	modbus.h	/^    MODBUS_EXCEPTION_ACKNOWLEDGE,$/;"	e	enum:__anon3
+MODBUS_EXCEPTION_GATEWAY_PATH	modbus.h	/^    MODBUS_EXCEPTION_GATEWAY_PATH,$/;"	e	enum:__anon3
+MODBUS_EXCEPTION_GATEWAY_TARGET	modbus.h	/^    MODBUS_EXCEPTION_GATEWAY_TARGET,$/;"	e	enum:__anon3
+MODBUS_EXCEPTION_ILLEGAL_DATA_ADDRESS	modbus.h	/^    MODBUS_EXCEPTION_ILLEGAL_DATA_ADDRESS,$/;"	e	enum:__anon3
+MODBUS_EXCEPTION_ILLEGAL_DATA_VALUE	modbus.h	/^    MODBUS_EXCEPTION_ILLEGAL_DATA_VALUE,$/;"	e	enum:__anon3
+MODBUS_EXCEPTION_ILLEGAL_FUNCTION	modbus.h	/^    MODBUS_EXCEPTION_ILLEGAL_FUNCTION = 0x01,$/;"	e	enum:__anon3
+MODBUS_EXCEPTION_MAX	modbus.h	/^    MODBUS_EXCEPTION_MAX$/;"	e	enum:__anon3
+MODBUS_EXCEPTION_MEMORY_PARITY	modbus.h	/^    MODBUS_EXCEPTION_MEMORY_PARITY,$/;"	e	enum:__anon3
+MODBUS_EXCEPTION_NEGATIVE_ACKNOWLEDGE	modbus.h	/^    MODBUS_EXCEPTION_NEGATIVE_ACKNOWLEDGE,$/;"	e	enum:__anon3
+MODBUS_EXCEPTION_NOT_DEFINED	modbus.h	/^    MODBUS_EXCEPTION_NOT_DEFINED,$/;"	e	enum:__anon3
+MODBUS_EXCEPTION_SLAVE_OR_SERVER_BUSY	modbus.h	/^    MODBUS_EXCEPTION_SLAVE_OR_SERVER_BUSY,$/;"	e	enum:__anon3
+MODBUS_EXCEPTION_SLAVE_OR_SERVER_FAILURE	modbus.h	/^    MODBUS_EXCEPTION_SLAVE_OR_SERVER_FAILURE,$/;"	e	enum:__anon3
+MODBUS_GET_HIGH_BYTE	modbus.h	201;"	d
+MODBUS_GET_INT16_FROM_INT8	modbus.h	204;"	d
+MODBUS_GET_INT32_FROM_INT16	modbus.h	203;"	d
+MODBUS_GET_LOW_BYTE	modbus.h	202;"	d
+MODBUS_MAX_READ_BITS	modbus.h	70;"	d
+MODBUS_MAX_READ_REGISTERS	modbus.h	80;"	d
+MODBUS_MAX_RW_WRITE_REGISTERS	modbus.h	82;"	d
+MODBUS_MAX_WRITE_BITS	modbus.h	71;"	d
+MODBUS_MAX_WRITE_REGISTERS	modbus.h	81;"	d
+MODBUS_RTU_MAX_ADU_LENGTH	modbus-rtu.h	29;"	d
+MODBUS_RTU_RS232	modbus-rtu.h	34;"	d
+MODBUS_RTU_RS485	modbus-rtu.h	35;"	d
+MODBUS_SET_INT16_TO_INT8	modbus.h	205;"	d
+MODBUS_TCP_DEFAULT_PORT	modbus-tcp.h	35;"	d
+MODBUS_TCP_MAX_ADU_LENGTH	modbus-tcp.h	41;"	d
+MODBUS_TCP_SLAVE	modbus-tcp.h	36;"	d
+MSG_CONFIRMATION	modbus.c	/^    MSG_CONFIRMATION$/;"	e	enum:__anon2	file:
+MSG_INDICATION	modbus.c	/^    MSG_INDICATION,$/;"	e	enum:__anon2	file:
+MSG_LENGTH_UNDEFINED	modbus.c	36;"	d	file:
+MSG_NOSIGNAL	modbus-tcp.c	57;"	d	file:
+OBJS	Makefile	/^OBJS=$(patsubst %.c, %.o, $(notdir $(SRC)))$/;"	m
+OFF	modbus.h	56;"	d
+ON	modbus.h	60;"	d
+OS_BSD	modbus-tcp.c	44;"	d	file:
+OS_WIN32	modbus-tcp.c	30;"	d	file:
+PACKAGE	config.h	128;"	d
+PACKAGE_BUGREPORT	config.h	131;"	d
+PACKAGE_NAME	config.h	134;"	d
+PACKAGE_STRING	config.h	137;"	d
+PACKAGE_TARNAME	config.h	140;"	d
+PACKAGE_URL	config.h	143;"	d
+PACKAGE_VERSION	config.h	146;"	d
+PMCLOSE	powerManager.h	/^	PMCLOSE,$/;"	e	enum:__anon7
+PMNONE	powerManager.h	/^	PMNONE = 0,$/;"	e	enum:__anon7
+PMOPEN	powerManager.h	/^	PMOPEN,$/;"	e	enum:__anon7
+PMREAD	powerManager.h	/^	PMREAD$/;"	e	enum:__anon7
+POWER_CMD	powerManager.h	/^}POWER_CMD;$/;"	t	typeref:enum:__anon7
+PY_BUF_SIZE	modbus-rtu-private.h	44;"	d
+SHUT_RDWR	modbus-tcp.c	37;"	d	file:
+SRC	Makefile	/^SRC=$(wildcard .\/*.c)$/;"	m
+STDC_HEADERS	config.h	149;"	d
+TARGET	Makefile	/^TARGET=power-manager$/;"	m
+TIME_WITH_SYS_TIME	config.h	152;"	d
+TRUE	modbus.h	52;"	d
+VERSION	config.h	155;"	d
+WINVER	modbus-tcp.c	34;"	d	file:
+_BYTE_TIMEOUT	modbus-private.h	52;"	d
+_FC_READ_COILS	modbus-private.h	55;"	d
+_FC_READ_DISCRETE_INPUTS	modbus-private.h	56;"	d
+_FC_READ_EXCEPTION_STATUS	modbus-private.h	61;"	d
+_FC_READ_HOLDING_REGISTERS	modbus-private.h	57;"	d
+_FC_READ_INPUT_REGISTERS	modbus-private.h	58;"	d
+_FC_REPORT_SLAVE_ID	modbus-private.h	64;"	d
+_FC_WRITE_AND_READ_REGISTERS	modbus-private.h	65;"	d
+_FC_WRITE_MULTIPLE_COILS	modbus-private.h	62;"	d
+_FC_WRITE_MULTIPLE_REGISTERS	modbus-private.h	63;"	d
+_FC_WRITE_SINGLE_COIL	modbus-private.h	59;"	d
+_FC_WRITE_SINGLE_REGISTER	modbus-private.h	60;"	d
+_MIN_REQ_LENGTH	modbus-private.h	44;"	d
+_MODBUS_BACKEND_TYPE_RTU	modbus-private.h	/^    _MODBUS_BACKEND_TYPE_RTU=0,$/;"	e	enum:__anon6
+_MODBUS_BACKEND_TYPE_TCP	modbus-private.h	/^    _MODBUS_BACKEND_TYPE_TCP$/;"	e	enum:__anon6
+_MODBUS_EXCEPTION_RSP_LENGTH	modbus-private.h	48;"	d
+_MODBUS_H_	modbus.h	20;"	d
+_MODBUS_PRIVATE_H_	modbus-private.h	20;"	d
+_MODBUS_RTU_CHECKSUM_LENGTH	modbus-rtu-private.h	38;"	d
+_MODBUS_RTU_HEADER_LENGTH	modbus-rtu-private.h	34;"	d
+_MODBUS_RTU_H_	modbus-rtu.h	20;"	d
+_MODBUS_RTU_PRESET_REQ_LENGTH	modbus-rtu-private.h	35;"	d
+_MODBUS_RTU_PRESET_RSP_LENGTH	modbus-rtu-private.h	36;"	d
+_MODBUS_RTU_PRIVATE_H_	modbus-rtu-private.h	20;"	d
+_MODBUS_TCP_CHECKSUM_LENGTH	modbus-tcp-private.h	26;"	d
+_MODBUS_TCP_HEADER_LENGTH	modbus-tcp-private.h	22;"	d
+_MODBUS_TCP_H_	modbus-tcp.h	20;"	d
+_MODBUS_TCP_PI_NODE_LENGTH	modbus-tcp-private.h	35;"	d
+_MODBUS_TCP_PI_SERVICE_LENGTH	modbus-tcp-private.h	36;"	d
+_MODBUS_TCP_PRESET_REQ_LENGTH	modbus-tcp-private.h	23;"	d
+_MODBUS_TCP_PRESET_RSP_LENGTH	modbus-tcp-private.h	24;"	d
+_MODBUS_TCP_PRIVATE_H_	modbus-tcp-private.h	20;"	d
+_MODBUS_VERSION_H_	modbus-version.h	19;"	d
+_POWER_MANAGER_H_	powerManager.h	2;"	d
+_REPORT_SLAVE_ID	modbus-private.h	46;"	d
+_RESPONSE_TIMEOUT	modbus-private.h	51;"	d
+_STEP_DATA	modbus.c	/^    _STEP_DATA$/;"	e	enum:__anon1	file:
+_STEP_FUNCTION	modbus.c	/^    _STEP_FUNCTION,$/;"	e	enum:__anon1	file:
+_STEP_META	modbus.c	/^    _STEP_META,$/;"	e	enum:__anon1	file:
+_error_print	modbus.c	/^void _error_print(modbus_t *ctx, const char *context)$/;"	f
+_modbus	modbus-private.h	/^struct _modbus {$/;"	s
+_modbus_backend	modbus-private.h	/^typedef struct _modbus_backend {$/;"	s
+_modbus_init_common	modbus.c	/^void _modbus_init_common(modbus_t *ctx)$/;"	f
+_modbus_rtu	modbus-rtu-private.h	/^typedef struct _modbus_rtu {$/;"	s
+_modbus_rtu_backend	modbus-rtu.c	/^const modbus_backend_t _modbus_rtu_backend = {$/;"	v
+_modbus_rtu_build_request_basis	modbus-rtu.c	/^static int _modbus_rtu_build_request_basis(modbus_t *ctx, int function,$/;"	f	file:
+_modbus_rtu_build_response_basis	modbus-rtu.c	/^static int _modbus_rtu_build_response_basis(sft_t *sft, uint8_t *rsp)$/;"	f	file:
+_modbus_rtu_check_integrity	modbus-rtu.c	/^int _modbus_rtu_check_integrity(modbus_t *ctx, uint8_t *msg,$/;"	f
+_modbus_rtu_close	modbus-rtu.c	/^void _modbus_rtu_close(modbus_t *ctx)$/;"	f
+_modbus_rtu_connect	modbus-rtu.c	/^static int _modbus_rtu_connect(modbus_t *ctx)$/;"	f	file:
+_modbus_rtu_filter_request	modbus-rtu.c	/^int _modbus_rtu_filter_request(modbus_t *ctx, int slave)$/;"	f
+_modbus_rtu_flush	modbus-rtu.c	/^int _modbus_rtu_flush(modbus_t *ctx)$/;"	f
+_modbus_rtu_prepare_response_tid	modbus-rtu.c	/^int _modbus_rtu_prepare_response_tid(const uint8_t *req, int *req_length)$/;"	f
+_modbus_rtu_recv	modbus-rtu.c	/^ssize_t _modbus_rtu_recv(modbus_t *ctx, uint8_t *rsp, int rsp_length)$/;"	f
+_modbus_rtu_select	modbus-rtu.c	/^int _modbus_rtu_select(modbus_t *ctx, fd_set *rfds,$/;"	f
+_modbus_rtu_send	modbus-rtu.c	/^ssize_t _modbus_rtu_send(modbus_t *ctx, const uint8_t *req, int req_length)$/;"	f
+_modbus_rtu_send_msg_pre	modbus-rtu.c	/^int _modbus_rtu_send_msg_pre(uint8_t *req, int req_length)$/;"	f
+_modbus_set_slave	modbus-rtu.c	/^static int _modbus_set_slave(modbus_t *ctx, int slave)$/;"	f	file:
+_modbus_set_slave	modbus-tcp.c	/^static int _modbus_set_slave(modbus_t *ctx, int slave)$/;"	f	file:
+_modbus_tcp	modbus-tcp-private.h	/^typedef struct _modbus_tcp {$/;"	s
+_modbus_tcp_backend	modbus-tcp.c	/^const modbus_backend_t _modbus_tcp_backend = {$/;"	v
+_modbus_tcp_build_request_basis	modbus-tcp.c	/^int _modbus_tcp_build_request_basis(modbus_t *ctx, int function,$/;"	f
+_modbus_tcp_build_response_basis	modbus-tcp.c	/^int _modbus_tcp_build_response_basis(sft_t *sft, uint8_t *rsp)$/;"	f
+_modbus_tcp_check_integrity	modbus-tcp.c	/^int _modbus_tcp_check_integrity(modbus_t *ctx, uint8_t *msg, const int msg_length)$/;"	f
+_modbus_tcp_close	modbus-tcp.c	/^void _modbus_tcp_close(modbus_t *ctx)$/;"	f
+_modbus_tcp_connect	modbus-tcp.c	/^static int _modbus_tcp_connect(modbus_t *ctx)$/;"	f	file:
+_modbus_tcp_filter_request	modbus-tcp.c	/^int _modbus_tcp_filter_request(modbus_t *ctx, int slave)$/;"	f
+_modbus_tcp_flush	modbus-tcp.c	/^int _modbus_tcp_flush(modbus_t *ctx)$/;"	f
+_modbus_tcp_init_win32	modbus-tcp.c	/^static int _modbus_tcp_init_win32(void)$/;"	f	file:
+_modbus_tcp_pi	modbus-tcp-private.h	/^typedef struct _modbus_tcp_pi {$/;"	s
+_modbus_tcp_pi_backend	modbus-tcp.c	/^const modbus_backend_t _modbus_tcp_pi_backend = {$/;"	v
+_modbus_tcp_pi_connect	modbus-tcp.c	/^static int _modbus_tcp_pi_connect(modbus_t *ctx)$/;"	f	file:
+_modbus_tcp_pre_check_confirmation	modbus-tcp.c	/^int _modbus_tcp_pre_check_confirmation(modbus_t *ctx, const uint8_t *req,$/;"	f
+_modbus_tcp_prepare_response_tid	modbus-tcp.c	/^int _modbus_tcp_prepare_response_tid(const uint8_t *req, int *req_length)$/;"	f
+_modbus_tcp_recv	modbus-tcp.c	/^ssize_t _modbus_tcp_recv(modbus_t *ctx, uint8_t *rsp, int rsp_length) {$/;"	f
+_modbus_tcp_select	modbus-tcp.c	/^int _modbus_tcp_select(modbus_t *ctx, fd_set *rfds, struct timeval *tv, int length_to_read)$/;"	f
+_modbus_tcp_send	modbus-tcp.c	/^ssize_t _modbus_tcp_send(modbus_t *ctx, const uint8_t *req, int req_length)$/;"	f
+_modbus_tcp_send_msg_pre	modbus-tcp.c	/^int _modbus_tcp_send_msg_pre(uint8_t *req, int req_length)$/;"	f
+_modbus_tcp_set_ipv4_options	modbus-tcp.c	/^static int _modbus_tcp_set_ipv4_options(int s)$/;"	f	file:
+_sft	modbus-private.h	/^typedef struct _sft {$/;"	s
+_sleep_and_flush	modbus.c	/^int _sleep_and_flush(modbus_t *ctx)$/;"	f
+_step_t	modbus.c	/^} _step_t;$/;"	t	typeref:enum:__anon1	file:
+backend	modbus-private.h	/^    const modbus_backend_t *backend;$/;"	m	struct:_modbus
+backend_data	modbus-private.h	/^    void *backend_data;$/;"	m	struct:_modbus
+backend_type	modbus-private.h	/^    unsigned int backend_type;$/;"	m	struct:_modbus_backend
+baud	modbus-rtu-private.h	/^    int baud;$/;"	m	struct:_modbus_rtu
+buf	modbus-rtu-private.h	/^	uint8_t buf[PY_BUF_SIZE];$/;"	m	struct:win32_ser
+build_request_basis	modbus-private.h	/^    int (*build_request_basis) (modbus_t *ctx, int function, int addr,$/;"	m	struct:_modbus_backend
+build_response_basis	modbus-private.h	/^    int (*build_response_basis) (sft_t *sft, uint8_t *rsp);$/;"	m	struct:_modbus_backend
+byte_timeout	modbus-private.h	/^    struct timeval byte_timeout;$/;"	m	struct:_modbus	typeref:struct:_modbus::timeval
+check_confirmation	modbus.c	/^static int check_confirmation(modbus_t *ctx, uint8_t *req,$/;"	f	file:
+check_integrity	modbus-private.h	/^    int (*check_integrity) (modbus_t *ctx, uint8_t *msg,$/;"	m	struct:_modbus_backend
+checksum_length	modbus-private.h	/^    unsigned int checksum_length;$/;"	m	struct:_modbus_backend
+close	modbus-private.h	/^    void (*close) (modbus_t *ctx);$/;"	m	struct:_modbus_backend
+close	modbus-tcp.c	38;"	d	file:
+close_modbus_tcp_powermang	powerManager.c	/^void close_modbus_tcp_powermang()$/;"	f
+close_powermang	powerManager.c	/^int close_powermang(int mang_index, int coil_index)$/;"	f
+closeall	powerManager.c	/^void closeall()$/;"	f
+compute_data_length_after_meta	modbus.c	/^static int compute_data_length_after_meta(modbus_t *ctx, uint8_t *msg,$/;"	f	file:
+compute_meta_length_after_function	modbus.c	/^static uint8_t compute_meta_length_after_function(int function,$/;"	f	file:
+compute_response_length_from_request	modbus.c	/^static unsigned int compute_response_length_from_request(modbus_t *ctx, uint8_t *req)$/;"	f	file:
+connect	modbus-private.h	/^    int (*connect) (modbus_t *ctx);$/;"	m	struct:_modbus_backend
+crc16	modbus-rtu.c	/^static uint16_t crc16(uint8_t *buffer, uint16_t buffer_length)$/;"	f	file:
+cruise	powerManager.c	/^void cruise()$/;"	f
+ctx	powerManager.c	/^modbus_t *ctx = NULL;$/;"	v
+data_bit	modbus-rtu-private.h	/^    uint8_t data_bit;$/;"	m	struct:_modbus_rtu
+debug	modbus-private.h	/^    int debug;$/;"	m	struct:_modbus
+device	modbus-rtu-private.h	/^    char device[64];$/;"	m	struct:_modbus_rtu
+error_recovery	modbus-private.h	/^    int error_recovery;$/;"	m	struct:_modbus
+fd	modbus-rtu-private.h	/^	HANDLE fd;$/;"	m	struct:win32_ser
+filter_request	modbus-private.h	/^    int (*filter_request) (modbus_t *ctx, int slave);$/;"	m	struct:_modbus_backend
+flush	modbus-private.h	/^    int (*flush) (modbus_t *ctx);$/;"	m	struct:_modbus_backend
+function	modbus-private.h	/^    int function;$/;"	m	struct:_sft
+get_addr	powerManager.c	/^int get_addr(int mang_index)$/;"	f
+header_length	modbus-private.h	/^    unsigned int header_length;$/;"	m	struct:_modbus_backend
+ip	modbus-tcp-private.h	/^    char ip[16];$/;"	m	struct:_modbus_tcp
+libmodbus_version_major	modbus.c	/^const unsigned int libmodbus_version_major = LIBMODBUS_VERSION_MAJOR;$/;"	v
+libmodbus_version_micro	modbus.c	/^const unsigned int libmodbus_version_micro = LIBMODBUS_VERSION_MICRO;$/;"	v
+libmodbus_version_minor	modbus.c	/^const unsigned int libmodbus_version_minor = LIBMODBUS_VERSION_MINOR;$/;"	v
+main	powerManager.c	/^int main(int arg, char** argv)$/;"	f
+max_adu_length	modbus-private.h	/^    unsigned int max_adu_length;$/;"	m	struct:_modbus_backend
+modbus_backend_t	modbus-private.h	/^} modbus_backend_t;$/;"	t	typeref:struct:_modbus_backend
+modbus_bakend_type_t	modbus-private.h	/^} modbus_bakend_type_t;$/;"	t	typeref:enum:__anon6
+modbus_close	modbus.c	/^void modbus_close(modbus_t *ctx)$/;"	f
+modbus_connect	modbus.c	/^int modbus_connect(modbus_t *ctx)$/;"	f
+modbus_error_recovery_mode	modbus.h	/^} modbus_error_recovery_mode;$/;"	t	typeref:enum:__anon5
+modbus_flush	modbus.c	/^int modbus_flush(modbus_t *ctx)$/;"	f
+modbus_free	modbus.c	/^void modbus_free(modbus_t *ctx)$/;"	f
+modbus_get_byte_from_bits	modbus-data.c	/^uint8_t modbus_get_byte_from_bits(const uint8_t *src, int index,$/;"	f
+modbus_get_byte_timeout	modbus.c	/^void modbus_get_byte_timeout(modbus_t *ctx, struct timeval *timeout)$/;"	f
+modbus_get_float	modbus-data.c	/^float modbus_get_float(const uint16_t *src)$/;"	f
+modbus_get_header_length	modbus.c	/^int modbus_get_header_length(modbus_t *ctx)$/;"	f
+modbus_get_response_timeout	modbus.c	/^void modbus_get_response_timeout(modbus_t *ctx, struct timeval *timeout)$/;"	f
+modbus_get_socket	modbus.c	/^int modbus_get_socket(modbus_t *ctx)$/;"	f
+modbus_mapping_free	modbus.c	/^void modbus_mapping_free(modbus_mapping_t *mb_mapping)$/;"	f
+modbus_mapping_new	modbus.c	/^modbus_mapping_t* modbus_mapping_new(int nb_bits, int nb_input_bits,$/;"	f
+modbus_mapping_t	modbus.h	/^} modbus_mapping_t;$/;"	t	typeref:struct:__anon4
+modbus_new_rtu	modbus-rtu.c	/^modbus_t* modbus_new_rtu(const char *device,$/;"	f
+modbus_new_tcp	modbus-tcp.c	/^modbus_t* modbus_new_tcp(const char *ip, int port)$/;"	f
+modbus_new_tcp_pi	modbus-tcp.c	/^modbus_t* modbus_new_tcp_pi(const char *node, const char *service)$/;"	f
+modbus_read_bits	modbus.c	/^int modbus_read_bits(modbus_t *ctx, int addr, int nb, uint8_t *dest)$/;"	f
+modbus_read_input_bits	modbus.c	/^int modbus_read_input_bits(modbus_t *ctx, int addr, int nb, uint8_t *dest)$/;"	f
+modbus_read_input_registers	modbus.c	/^int modbus_read_input_registers(modbus_t *ctx, int addr, int nb,$/;"	f
+modbus_read_registers	modbus.c	/^int modbus_read_registers(modbus_t *ctx, int addr, int nb, uint16_t *dest)$/;"	f
+modbus_receive	modbus.c	/^int modbus_receive(modbus_t *ctx, uint8_t *req)$/;"	f
+modbus_receive_confirmation	modbus.c	/^int modbus_receive_confirmation(modbus_t *ctx, uint8_t *rsp)$/;"	f
+modbus_reply	modbus.c	/^int modbus_reply(modbus_t *ctx, const uint8_t *req,$/;"	f
+modbus_reply_exception	modbus.c	/^int modbus_reply_exception(modbus_t *ctx, const uint8_t *req,$/;"	f
+modbus_report_slave_id	modbus.c	/^int modbus_report_slave_id(modbus_t *ctx, uint8_t *dest)$/;"	f
+modbus_rtu_get_serial_mode	modbus-rtu.c	/^int modbus_rtu_get_serial_mode(modbus_t *ctx) {$/;"	f
+modbus_rtu_set_serial_mode	modbus-rtu.c	/^int modbus_rtu_set_serial_mode(modbus_t *ctx, int mode)$/;"	f
+modbus_rtu_t	modbus-rtu-private.h	/^} modbus_rtu_t;$/;"	t	typeref:struct:_modbus_rtu
+modbus_send_raw_request	modbus.c	/^int modbus_send_raw_request(modbus_t *ctx, uint8_t *raw_req, int raw_req_length)$/;"	f
+modbus_set_bits_from_byte	modbus-data.c	/^void modbus_set_bits_from_byte(uint8_t *dest, int index, const uint8_t value)$/;"	f
+modbus_set_bits_from_bytes	modbus-data.c	/^void modbus_set_bits_from_bytes(uint8_t *dest, int index, unsigned int nb_bits,$/;"	f
+modbus_set_byte_timeout	modbus.c	/^void modbus_set_byte_timeout(modbus_t *ctx, const struct timeval *timeout)$/;"	f
+modbus_set_debug	modbus.c	/^void modbus_set_debug(modbus_t *ctx, int boolean)$/;"	f
+modbus_set_error_recovery	modbus.c	/^int modbus_set_error_recovery(modbus_t *ctx,$/;"	f
+modbus_set_float	modbus-data.c	/^void modbus_set_float(float f, uint16_t *dest)$/;"	f
+modbus_set_response_timeout	modbus.c	/^void modbus_set_response_timeout(modbus_t *ctx, const struct timeval *timeout)$/;"	f
+modbus_set_slave	modbus.c	/^int modbus_set_slave(modbus_t *ctx, int slave)$/;"	f
+modbus_set_socket	modbus.c	/^void modbus_set_socket(modbus_t *ctx, int socket)$/;"	f
+modbus_strerror	modbus.c	/^const char *modbus_strerror(int errnum) {$/;"	f
+modbus_t	modbus.h	/^typedef struct _modbus modbus_t;$/;"	t	typeref:struct:_modbus
+modbus_tcp_accept	modbus-tcp.c	/^int modbus_tcp_accept(modbus_t *ctx, int *socket)$/;"	f
+modbus_tcp_listen	modbus-tcp.c	/^int modbus_tcp_listen(modbus_t *ctx, int nb_connection)$/;"	f
+modbus_tcp_pi_accept	modbus-tcp.c	/^int modbus_tcp_pi_accept(modbus_t *ctx, int *socket)$/;"	f
+modbus_tcp_pi_listen	modbus-tcp.c	/^int modbus_tcp_pi_listen(modbus_t *ctx, int nb_connection)$/;"	f
+modbus_tcp_pi_t	modbus-tcp-private.h	/^} modbus_tcp_pi_t;$/;"	t	typeref:struct:_modbus_tcp_pi
+modbus_tcp_t	modbus-tcp-private.h	/^} modbus_tcp_t;$/;"	t	typeref:struct:_modbus_tcp
+modbus_write_and_read_registers	modbus.c	/^int modbus_write_and_read_registers(modbus_t *ctx,$/;"	f
+modbus_write_bit	modbus.c	/^int modbus_write_bit(modbus_t *ctx, int addr, int status)$/;"	f
+modbus_write_bits	modbus.c	/^int modbus_write_bits(modbus_t *ctx, int addr, int nb, const uint8_t *src)$/;"	f
+modbus_write_register	modbus.c	/^int modbus_write_register(modbus_t *ctx, int addr, int value)$/;"	f
+modbus_write_registers	modbus.c	/^int modbus_write_registers(modbus_t *ctx, int addr, int nb, const uint16_t *src)$/;"	f
+msg_type_t	modbus.c	/^} msg_type_t;$/;"	t	typeref:enum:__anon2	file:
+n_bytes	modbus-rtu-private.h	/^	DWORD n_bytes;$/;"	m	struct:win32_ser
+nb_bits	modbus.h	/^    int nb_bits;$/;"	m	struct:__anon4
+nb_input_bits	modbus.h	/^    int nb_input_bits;$/;"	m	struct:__anon4
+nb_input_registers	modbus.h	/^    int nb_input_registers;$/;"	m	struct:__anon4
+nb_registers	modbus.h	/^    int nb_registers;$/;"	m	struct:__anon4
+node	modbus-tcp-private.h	/^    char node[_MODBUS_TCP_PI_NODE_LENGTH];$/;"	m	struct:_modbus_tcp_pi
+old_dcb	modbus-rtu-private.h	/^    DCB old_dcb;$/;"	m	struct:_modbus_rtu
+old_tios	modbus-rtu-private.h	/^    struct termios old_tios;$/;"	m	struct:_modbus_rtu	typeref:struct:_modbus_rtu::termios
+open_modbus_tcp_powermang	powerManager.c	/^int open_modbus_tcp_powermang(const char *ip_address, int port)$/;"	f
+open_powermang	powerManager.c	/^int open_powermang(int mang_index, int coil_index)$/;"	f
+openall	powerManager.c	/^void openall()$/;"	f
+parity	modbus-rtu-private.h	/^    char parity;$/;"	m	struct:_modbus_rtu
+port	modbus-tcp-private.h	/^    int port;$/;"	m	struct:_modbus_tcp
+port	modbus-tcp-private.h	/^    int port;$/;"	m	struct:_modbus_tcp_pi
+pre_check_confirmation	modbus-private.h	/^    int (*pre_check_confirmation) (modbus_t *ctx, const uint8_t *req,$/;"	m	struct:_modbus_backend
+prepare_response_tid	modbus-private.h	/^    int (*prepare_response_tid) (const uint8_t *req, int *req_length);$/;"	m	struct:_modbus_backend
+read_baud	powerManager.c	/^int read_baud(int mang_index)$/;"	f
+read_coil_status	powerManager.c	/^int read_coil_status(modbus_t *ctx, int coil_index)$/;"	f
+read_io_status	modbus.c	/^static int read_io_status(modbus_t *ctx, int function,$/;"	f	file:
+read_powermang	powerManager.c	/^int read_powermang(int mang_index, int coil_index)$/;"	f
+read_registers	modbus.c	/^static int read_registers(modbus_t *ctx, int function, int addr, int nb,$/;"	f	file:
+receive_msg	modbus.c	/^static int receive_msg(modbus_t *ctx, uint8_t *msg, msg_type_t msg_type)$/;"	f	file:
+recv	modbus-private.h	/^    ssize_t (*recv) (modbus_t *ctx, uint8_t *rsp, int rsp_length);$/;"	m	struct:_modbus_backend
+response_exception	modbus.c	/^static int response_exception(modbus_t *ctx, sft_t *sft,$/;"	f	file:
+response_io_status	modbus.c	/^static int response_io_status(int address, int nb,$/;"	f	file:
+response_timeout	modbus-private.h	/^    struct timeval response_timeout;$/;"	m	struct:_modbus	typeref:struct:_modbus::timeval
+s	modbus-private.h	/^    int s;$/;"	m	struct:_modbus
+select	modbus-private.h	/^    int (*select) (modbus_t *ctx, fd_set *rfds, struct timeval *tv, int msg_length);$/;"	m	struct:_modbus_backend
+send	modbus-private.h	/^    ssize_t (*send) (modbus_t *ctx, const uint8_t *req, int req_length);$/;"	m	struct:_modbus_backend
+send_msg	modbus.c	/^static int send_msg(modbus_t *ctx, uint8_t *msg, int msg_length)$/;"	f	file:
+send_msg_pre	modbus-private.h	/^    int (*send_msg_pre) (uint8_t *req, int req_length);$/;"	m	struct:_modbus_backend
+serial_mode	modbus-rtu-private.h	/^    int serial_mode;$/;"	m	struct:_modbus_rtu
+service	modbus-tcp-private.h	/^    char service[_MODBUS_TCP_PI_SERVICE_LENGTH];$/;"	m	struct:_modbus_tcp_pi
+set_addr	powerManager.c	/^void set_addr(int zqwl_addr)  \/\/zqwl_addr such as: 0x0001$/;"	f
+set_slave	modbus-private.h	/^    int (*set_slave) (modbus_t *ctx, int slave);$/;"	m	struct:_modbus_backend
+sft_t	modbus-private.h	/^} sft_t;$/;"	t	typeref:struct:_sft
+slave	modbus-private.h	/^    int slave;$/;"	m	struct:_modbus
+slave	modbus-private.h	/^    int slave;$/;"	m	struct:_sft
+ssize_t	modbus-private.h	/^typedef int ssize_t;$/;"	t
+stop_bit	modbus-rtu-private.h	/^    uint8_t stop_bit;$/;"	m	struct:_modbus_rtu
+strlcpy	modbus.c	/^size_t strlcpy(char *dest, const char *src, size_t dest_size)$/;"	f
+t_id	modbus-private.h	/^    int t_id;$/;"	m	struct:_sft
+tab_bits	modbus.h	/^    uint8_t *tab_bits;$/;"	m	struct:__anon4
+tab_input_bits	modbus.h	/^    uint8_t *tab_input_bits;$/;"	m	struct:__anon4
+tab_input_registers	modbus.h	/^    uint16_t *tab_input_registers;$/;"	m	struct:__anon4
+tab_registers	modbus.h	/^    uint16_t *tab_registers;$/;"	m	struct:__anon4
+table_crc_hi	modbus-rtu.c	/^static const uint8_t table_crc_hi[] = {$/;"	v	file:
+table_crc_lo	modbus-rtu.c	/^static const uint8_t table_crc_lo[] = {$/;"	v	file:
+w_ser	modbus-rtu-private.h	/^    struct win32_ser w_ser;$/;"	m	struct:_modbus_rtu	typeref:struct:_modbus_rtu::win32_ser
+win32_ser	modbus-rtu-private.h	/^struct win32_ser {$/;"	s
+win32_ser_init	modbus-rtu.c	/^static void win32_ser_init(struct win32_ser *ws) {$/;"	f	file:
+win32_ser_read	modbus-rtu.c	/^static int win32_ser_read(struct win32_ser *ws, uint8_t *p_msg,$/;"	f	file:
+win32_ser_select	modbus-rtu.c	/^static int win32_ser_select(struct win32_ser *ws, int max_len,$/;"	f	file:
+write_single	modbus.c	/^static int write_single(modbus_t *ctx, int function, int addr, int value)$/;"	f	file:
+write_single_coil	powerManager.c	/^int write_single_coil(modbus_t *ctx, int coil_index, int status)$/;"	f
